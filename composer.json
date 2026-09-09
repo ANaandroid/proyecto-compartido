@@ -16,7 +16,7 @@
         "laravel/pao": "^1.0.6",
         "laravel/pint": "^1.27",
         "mockery/mockery": "^1.6",
-        "nunomaduro/collision": "^8.6",
+        "nunomaduro/collision": "^8.3",
         "phpunit/phpunit": "^12.5.12"
     },
     "autoload": {
@@ -73,6 +73,7 @@
         }
     },
     "config": {
+        "platform-check": false, 
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
@@ -83,4 +84,5 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true
+    
 }

@@ -18,5 +18,11 @@
 @isset($resultado)
 <h2>Resultado: {{ $resultado }}</h2>
 @endisset
+<!-- Botón para retornar al menú principal -->
+<div style="margin-top: 20px;">
+    <a href="{{ url('/') }}" style="display: inline-block; padding: 8px 16px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 4px;">
+        ← Volver al Menú Principal
+    </a>
+</div>
 </body>
 </html>
